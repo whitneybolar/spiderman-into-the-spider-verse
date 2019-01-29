@@ -1,4 +1,4 @@
+// Everything OK?
 console.log('OK');
 
-// Lettering Plugin with Words options
-$('h1').lettering('words');
+// Your Awesome Scripts
