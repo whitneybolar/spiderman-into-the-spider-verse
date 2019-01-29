@@ -1,4 +1,6 @@
-# web-2-starter
+# Web 2 Starter
+Winter 2019 Web 2 Starter. Our DIY framework.
 
-## Sources
-* [2 Column Layout](https://codepen.io/geoffgraham/pen/jaqWMJ)
+## Dependencies
+* [Normalize CSS](https://necolas.github.io/normalize.css/)
+* [jQuery Libary](https://jquery.com)
