@@ -72,7 +72,8 @@ aside {
 }
 
 .aside-list-title{
-  font-family: "arvo", sans-serif;  
+  font-family: "arvo", sans-serif;
+  font-weight: bold;
 }
 
 a {
