@@ -3,8 +3,9 @@
 */
 
 @font-face {
-  font-family: "permanentmarker"; src: url("fonts/permanent-marker/permanent-marker.ttf") format("trutypefont");
-  font-family: "sedgwick"; src: url("fonts/sedwick-ave-display/sedgwick-regular.ttf") format("trutypefont");
+  font-family: "arvo"; src: url("fonts/permanent-marker/Arvo-Regular.ttf") format("trutypefont");
+  font-family: "sedgwick"; src: url("fonts/sedwick-ave-display/SedgwickAve-Regular.ttf") format("trutypefont");
+  font-family: "staatliches"; src: url("fonts/sedwick-ave-display/Staatliches-Regular.ttf") format("trutypefont");
 }
 
 body {
@@ -53,14 +54,16 @@ HEADER
 }
 
 #header-title {
-  font-size: 30px; 
+  font-size: 50px; 
   color: red; 
-  text-transform: capitalize; 
+  text-transform: capitalize;
+  font-family: "sedgwick", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
   
 #header-subtitle {
   font-size: 20px; 
   color: white;
+  font-family: "staatliches", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /*******
@@ -68,6 +71,16 @@ Aside
 ********/
 
 aside {
+  color: white; 
+}
+
+.aside-list-title{
+  font-family: "arvo", sans-serif;  
+}
+
+a {
+  font-family: "staatliches", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none; 
   color: white; 
 }
 
@@ -101,7 +114,8 @@ main section {
 
 .cast-titles {
   color: white;
-  text-align: center;  
+  text-align: center;
+  font-family: "arvo", sans-serif;  
 }
 
 .cast-images {
