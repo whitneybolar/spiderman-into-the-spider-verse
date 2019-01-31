@@ -2,7 +2,7 @@
   DIAGNOSTIC STYLING
 */
 body {
-  background: gray;
+  background-color: #343148;
 }
 
 * {
@@ -42,7 +42,19 @@ aside {
 /************
 HEADER
 ************/
-/* Your Styles */
+.entire-header {
+  text-align: center;
+}
+
+#header-title {
+  font-size: 30px; 
+  color: red; 
+}
+  
+#header-subtitle {
+  font-size: 20px; 
+  color: white;
+}
 
 
 /************
