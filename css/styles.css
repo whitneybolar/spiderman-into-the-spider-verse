@@ -1,12 +1,18 @@
 /*
   DIAGNOSTIC STYLING
 */
+
+@font-face {
+  font-family: "permanentmarker"; src: url("fonts/permanent-marker/permanent-marker.ttf") format("trutypefont");
+  font-family: "sedgwick"; src: url("fonts/sedwick-ave-display/sedgwick-regular.ttf") format("trutypefont");
+}
+
 body {
   background-color: #343148;
 }
 
 * {
-  outline: 1px dotted black;
+  outline: solid black 1px; 
 }
 
 /************
@@ -82,6 +88,23 @@ main section {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.cast-titles {
+  color: white;
+  text-align: center;  
+}
+
+.cast-images {
+  border-radius: 20px;
+  height: 120px; 
+  width: 100px; 
+  object-fit: fill;
+}
+
+#Brian-Tyree-Henry {
+  padding-left: 10px; 
+}
+
 
 /************
 FOOTER
