@@ -82,6 +82,17 @@ a {
   color: white; 
 }
 
+#summary-title {
+  text-align: center;
+  font-weight: bold; 
+  font-family: "arvo", sans-serif;
+}
+
+asidep, 
+#summary-content {
+  font-family: "staatliches", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 /************
 MOVIE TRAILER w/ MEDIA ELEMENT PLAYER
 ************/
@@ -134,6 +145,7 @@ FOOTER
 footer {
   text-align: center;
   color: white; 
+  font-family: "staatliches", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /************
